@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+.top_btn{
+    display: flex;
+    gap: 20px;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact_form form{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+.contact_image img{
+    width: 100%;
+}
