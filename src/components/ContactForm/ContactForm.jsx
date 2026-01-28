@@ -1,6 +1,8 @@
+import contactImg from '../assets/contact.svg';
 import Button from '../Button/Button';
 import Form from '../Form/Form';
 import styles from './ContactForm.module.css';
+
 
 const ContactForm = () => {
     
@@ -15,7 +17,7 @@ const ContactForm = () => {
                 <Form />
             </div>
             <div className={`${styles.contact_image}`}>
-                <img src="public/images/contact.svg" alt="contact_img" id='contact__image'/>
+                <img src={contactImg} alt="contact_img" id='contact__image'/>
             </div>
         </section>
     ) 

@@ -1,3 +1,4 @@
+import logo from '../assets/logo.svg';
 import styles from './Navigation.module.css';
 
 const Navigation = () => {
@@ -5,7 +6,7 @@ const Navigation = () => {
     return (
     <nav className={`${styles.navigation} container`}>
         <div>
-            <img src="public/images/logo.png" alt="logo" />
+            <img src={logo} alt="logo" />
         </div>
         <ul className="nav_links">
             <li className="nav_link">
