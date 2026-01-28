@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.svg';
+import logo from '../../assets/logo.png';
 import styles from './Navigation.module.css';
 
 const Navigation = () => {
