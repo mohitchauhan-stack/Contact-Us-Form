@@ -1,4 +1,4 @@
-import contactImg from '../assets/contact.svg';
+import contactImg from '../../assets/contact.svg';
 import Button from '../Button/Button';
 import Form from '../Form/Form';
 import styles from './ContactForm.module.css';
