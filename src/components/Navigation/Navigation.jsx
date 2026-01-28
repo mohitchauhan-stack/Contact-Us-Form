@@ -5,7 +5,7 @@ const Navigation = () => {
     return (
     <nav className={`${styles.navigation} container`}>
         <div>
-            <img src="images/logo.png" alt="logo" />
+            <img src="public/images/logo.png" alt="logo" />
         </div>
         <ul className="nav_links">
             <li className="nav_link">
